@@ -6,12 +6,12 @@ import Home from './Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Practice from './Practice';
 import Stopwatch from './Stopwatch';
+import Todoapp from './Todoapp/Todoapp';
 
 function App() {
   return (
     <div className="App">
-      <Stopwatch></Stopwatch>
-
+<Todoapp></Todoapp>
     </div>
   );
 }
